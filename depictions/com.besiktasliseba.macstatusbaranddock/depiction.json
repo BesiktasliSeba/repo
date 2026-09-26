@@ -133,6 +133,16 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "1.0.1",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Fixed: with Aerial 5.0, an app opened from its Dock icon could come up tiny and distorted (with its traffic lights) and stay that way until full screen and back. Windows already affected repair themselves.\n- Fixed: with Fit to Window on, a second window opened from its Dock icon lost its tile.\n- Fixed: on the Lock Screen (and with it pulled down), only the Apple menu shows: no traffic lights or app menus left from the app that was open.\n- iPadOS 17 and newer (experimental): the Status Bar and Dock pages always show up in Settings now, so Enable Anyway can be reached. They are also listed with your other tweaks.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "1.0.0",
           "useBoldText": true
         },
