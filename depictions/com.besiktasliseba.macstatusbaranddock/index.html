@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MacStatusBar&amp;Dock</title>
+<style>
+  :root { --bg:#f5f5f7; --card:#ffffff; --text:#1d1d1f; --muted:#6e6e73; --accent:#0a84ff; --line:#d2d2d7; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#000; --card:#1c1c1e; --text:#f5f5f7; --muted:#98989d; --line:#38383a; } }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.45 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:16px; }
+  header { display:flex; gap:14px; align-items:center; margin:8px 0 16px; }
+  header img { width:64px; height:64px; border-radius:14px; }
+  h1 { font-size:24px; margin:0; } h2 { font-size:19px; margin:24px 0 8px; } h3 { font-size:16px; margin:0 0 4px; }
+  .muted { color:var(--muted); }
+  .shots { display:flex; gap:10px; overflow-x:auto; padding-bottom:6px; }
+  .shots img { width:240px; height:180px; border-radius:8px; flex:none; border:1px solid var(--line); }
+  .card { background:var(--card); border-radius:12px; padding:12px 14px; margin:8px 0; }
+  .card p { margin:0; }
+  table { width:100%; border-collapse:collapse; background:var(--card); border-radius:12px; overflow:hidden; }
+  td { padding:10px 14px; border-bottom:1px solid var(--line); vertical-align:top; } tr:last-child td { border-bottom:none; }
+  td:first-child { color:var(--muted); width:38%; }
+  ul { padding-left:20px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="icon.png" alt="">
+    <div><h1>MacStatusBar&amp;Dock</h1><div class="muted">A macOS-style desktop for your iPad</div></div>
+  </header>
+  <div class="shots">
+    <img src="screenshots/1-both-ipads.jpg" alt="Both test iPads running MacStatusBar&Dock">
+    <img src="screenshots/2-audio-mixing.jpg" alt="Spotify and YouTube playing together with per-app volume">
+    <img src="screenshots/3-downloads.jpg" alt="The Dock Downloads stack">
+    <img src="screenshots/4-force-quit.jpg" alt="Windows and Force Quit on the iPad Pro 9.7">
+  </div>
+  <p>A menu bar with real app menus, Mac windows, a magnifying Dock and much more. It works with just your fingers or with a keyboard and trackpad or mouse, in portrait and landscape &mdash; every orientation. Optional extras, like the auto-hiding menu bar, start switched <strong>off</strong>, and most features have their own switch in Settings.</p>
+
+  <h2>Features</h2>
+      <div class="card"><h3>Status Bar Style: Mac or Stock</h3><p>Mac gives you the full menu bar, app menus, audio mixing and Mac-style windows. Stock keeps the standard iPadOS status bar; your window engine still runs, with its own settings. Switch between them any time in Settings.</p></div>
+      <div class="card"><h3>Menu bar with app menus</h3><p>An Apple menu (About This iPad, App Store, Force Quit, Respring, Safe Mode, Lock Screen, Sleep, Shut Down) and menus for the front app: App, Edit, Go, Window. Menus drop down from the bar just like on a Mac, in every orientation.</p></div>
+      <div class="card"><h3>Go Menu</h3><p>Choose and reorder the apps in the Go menu, the same way you'd customize Control Center. New installs start with Calendar, Terminal, Maps and Reynard &mdash; remove or add any app, in any order.</p></div>
+      <div class="card"><h3>Today drop-down</h3><p>Tap the clock to drop your Today View widgets down from the menu bar, like a menu.</p></div>
+      <div class="card"><h3>Control Center</h3><p>Open Control Center straight from the status bar. With BigSurCenter installed, you can also resize its panel with a slider in Settings.</p></div>
+      <div class="card"><h3>Mac-style banners</h3><p>Notification banners in the compact macOS style, in the top-right corner.</p></div>
+      <div class="card"><h3>Mute icon</h3><p>A small icon in the status bar shows while the iPad is on silent. Its own switch in Settings if you'd rather not see it.</p></div>
+      <div class="card"><h3>VPN icon</h3><p>A VPN icon shows while a VPN is connected; its menu tells you which app it runs through, opens that app, or goes to VPN &amp; Device Management.</p></div>
+      <div class="card"><h3>Mac pointer</h3><p>With a trackpad or mouse you get the macOS arrow instead of the round pointer, and an I-beam over text. You can choose the style and size.</p></div>
+      <div class="card"><h3>Haptic Touch menus</h3><p>Long-press a Home Screen app icon for Force Quit and App Size, or a folder icon to jump straight to one of its apps &mdash; each has its own switch in Settings.</p></div>
+      <div class="card"><h3>Mac windows on three engines</h3><p>Windows get a Mac look, with a title bar, traffic lights and rounded corners, on the engine you already use: <strong>Aerial 3.0 or 5.0</strong>, <strong>MilkyWay4</strong> (iPadOS 15 only) or <strong>Zetsu 1.6.2 or 1.6.6</strong>. Only one engine runs at a time, and MacStatusBar&Dock keeps it that way through Choicy or iCleaner Pro. Window positions survive resprings and rotation. Turn on <strong>Fit to Window</strong> in the Window menu to tile windows automatically &mdash; one full, two side by side, three, or four in quarters &mdash; with swapping, layout choices and send-to-back all from the same menu.</p></div>
+      <div class="card"><h3>Dock</h3><p>macOS-style magnification under the pointer, recent apps (none to 10, plus a suggested or Handoff app after them), indicators for open apps, a Launchpad icon, and a Downloads stack &mdash; choose which apps' downloads appear from a link in Settings.</p></div>
+      <div class="card"><h3>Audio mixing per app</h3><p>Choose which apps may play sound at the same time and set each one's volume, right from the menu bar.</p></div>
+      <div class="card"><h3>Auto-hiding menu bar</h3><p>Optional and off by default: the menu bar slides away and comes back when the pointer touches the top edge, as on a Mac.</p></div>
+      <div class="card"><h3>Home Screen</h3><p>A couple of small macOS-style touches, added right on Apple's own Home Screen settings page: no page dots, no icon labels.</p></div>
+      <div class="card"><h3>Lock Screen</h3><p>Hide the status bar on the Lock Screen, or skip straight past it after a respring (only works with no passcode set).</p></div>
+      <div class="card"><h3>Settings integration</h3><p>Stock-looking pages right below General: <strong>Status Bar &gt; Dock &gt; Control Center</strong>. Also adds three longer Auto-Lock times (30 min / 1 h / 2 h), an SSH switch and an always-visible Ethernet section, right on Apple's own pages.</p></div>
+      <div class="card"><h3>Keyboard extras</h3><p>Off until you turn them on: Cmd-Tab picks the right window, Escape closes menus, Tab can mute, and there are Globe volume keys and brightness/keyboard-backlight keys.</p></div>
+      <div class="card"><h3>A one-time welcome message</h3><p>After your first install, a short welcome message points you to Settings. It won't show again, and updates never show it.</p></div>
+      <div class="card"><h3>Reduce Motion</h3><p>If you use Reduce Motion in Accessibility, menus, windows and banners settle with a quick cross-fade instead of a zoom or spring.</p></div>
+      <div class="card"><h3>Built-in safety</h3><p>Outside iPadOS 15.x/16.x, MacStatusBar&amp;Dock keeps itself off unless you turn on Enable Anyway in Settings. It also checks your hardware and does nothing at all on an iPhone, even one made to look like an iPad by another tweak. If a feature you just turned on is followed by two SpringBoard crashes in a row, that one feature &mdash; not the whole tweak &mdash; is switched back off automatically, with a note in Settings and a Report a Problem button.</p></div>
+  <p class="muted">The Mac look is on right after install. Most features have their own switch in Settings &gt; Status Bar and Settings &gt; Dock, and windows only open once you choose Open Apps as Windows.</p>
+
+  <h2>Which window engine?</h2>
+  <p>Measured on both test iPads: Aerial 5.0 is the recommended window engine on newer and older iPads alike &mdash; every window test passed, memory use was the same as the others, and on the older iPad Pro 9.7&quot; it opened windows about twice as fast as Zetsu from a cold start. Zetsu works well too and is a good alternative. MilkyWay4 runs on iPadOS 15 only.</p>
+
+  <h2>Report a Problem</h2>
+  <p>the Report a Problem button (Settings &gt; Status Bar, and the crash protection's note) opens a new GitHub issue in your browser, filled in with your iPad model, iPadOS version, window engine and its version, and the tweak's version. If the crash protection switched something off in the last 7 days, it adds what it turned off and when, and a few lines naming the tweak's own code that crashed (nothing from other apps or tweaks); on an untested iPadOS version, which of the tweak's switches are on. Nothing is sent by itself: you see the whole text first, can change or delete any of it, and it's only posted if you submit the issue (a GitHub account is needed). Nothing personal is included, and the tweak collects nothing in the background.</p>
+
+  <h2>Compatibility</h2>
+  <table>
+    <tr><td>iPad only</td><td>MacStatusBar&amp;Dock checks your device and does nothing on an iPhone, even one made to look like an iPad by another tweak.</td></tr>
+    <tr><td>Tested</td><td>iPad Pro M1, iPadOS 15.6.1 (Dopamine)</td></tr>
+    <tr><td>Tested</td><td>iPad Pro 9.7", iPadOS 16.7.7</td></tr>
+    <tr><td>Other iPads</td><td>iPadOS 15/16 will likely work (untested)</td></tr>
+    <tr><td>Jailbreak</td><td>Rootless only</td></tr>
+    <tr><td>External displays (iPadOS 16)</td><td>Used as a separate screen (Stage Manager or TrollPad): to use windowed apps on the external display, open them from the App Library on that display. Apps opened from its Dock or from Spotlight open on the iPad, and windows can't be moved between displays yet. For apps anywhere on the external display, turn off Enable Windowing and use Stage Manager. On iPadOS 15 the external display mirrors the iPad, windows included.</td></tr>
+    <tr><td>iPadOS 17 and others</td><td>Experimental: off until you turn on Enable Anyway in Settings, at your own risk (untested). Crash protection still works; reports welcome.</td></tr>
+  </table>
+  <p class="muted">On iPadOS 15, Safari's sound can stop another app that's playing alone &mdash; it plays on its own, as on a stock iPad. Control Center's Now Playing controls only ever show one app at a time &mdash; usually whichever started playing most recently &mdash; even while several apps are playing together with Mix Audio. Stage Manager (iPadOS 16) stays off while windowing runs with a window engine, because two window systems would fight over the same apps. To use Stage Manager, turn off Enable Windowing in Settings > Status Bar; it comes back on by itself. Some apps, like many games, can't run in a window. Open those full screen. The camera only works full screen: iPadOS pauses it for apps in a window. The Camera app always opens full screen; for other apps, switch to full screen while you use the camera. Photos opened from inside the Camera opens full screen. Keep it full screen: turning it into a window then closes Photos (Photos can&#39;t change its layout while showing a single photo). Aerial 5.0 has to be activated in its own settings before it can open windows. Until then, apps open full screen, and a note leads you to Aerial&#39;s settings.</p>
+  <p class="muted"><strong>Both parts switched off?</strong> If you turn off both MacStatusBar and MacDock in Settings, their Settings pages go away too. Turn them back on in Choicy (or iCleaner Pro), then respring.</p>
+
+  <h2>Requirements</h2>
+  <ul>
+    <li>A hooking platform: ElleKit, libhooker, or Substrate</li>
+    <li><strong>Choicy</strong> or <strong>iCleaner Pro</strong> (keeps only one window engine loaded)</li>
+    <li>Optional window engine: Aerial 3.0 or 5.0, MilkyWay4 0.1.1 (iPadOS 15 only), Zetsu 1.6.2 or 1.6.6. Other versions run as plain windows, without the Mac look.</li>
+  </ul>
+
+  <h2>Changelog</h2>
+  <div class="card"><h3>1.0.0</h3><p>First public release: MacStatusBar, MacDock and Settings pages in one package.</p></div>
+
+  <h2>Credits</h2>
+  <h3>Window engines</h3>
+  <p>MacStatusBar&amp;Dock gives a Mac look to windows from these engines. Thanks to their developers:</p>
+  <ul>
+    <li><strong>Aerial</strong> by uz.ra</li>
+    <li><strong>MilkyWay4</strong> by akusio</li>
+    <li><strong>Zetsu</strong> by Dcsyhi</li>
+  </ul>
+  <h3>Inspiration</h3>
+  <p>Thanks to these tweaks for setting the bar:</p>
+  <ul>
+    <li><strong>Arrow, Finally.</strong> by Andy Ching, for the Mac pointer</li>
+    <li><strong>Lynx 2</strong> by MTAC</li>
+    <li><strong>Single Mute</strong> by 82Flex, for the mute icon</li>
+  </ul>
+  <p>This tweak does not include or modify any of their files.</p>
+
+  <p class="muted">Version 1.0.0 &middot; iPadOS 15.0&ndash;16.7 &middot; by besiktasliseba</p>
+</main>
+</body>
+</html>

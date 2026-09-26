@@ -1,0 +1,21 @@
+Origin: MacStatusBar&Dock Repo
+Label: MacStatusBar&Dock
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm64
+Components: main
+Description: A macOS-style menu bar, Dock and windows for jailbroken iPads (rootless, iPadOS 15-16).
+Date: Sat, 26 Sep 2026 17:06:49 GMT
+MD5Sum:
+ 56841bb7404761bd3d74df72323c33ad       1712 Packages
+ f373afe0bf4406feaad2c514ab45e809        814 Packages.bz2
+ 63aa7431ae1cc3d61348c209281958fb        736 Packages.xz
+SHA1:
+ 68d8689dfe4b1790d6368eb3d622105c1ad62d2a       1712 Packages
+ d47b7a8eb561c83b3354f45fe3d4ae2a06e71e8d        814 Packages.bz2
+ 97a8e431a6ecf33ff98bbcc3ebeda764aea3f1b5        736 Packages.xz
+SHA256:
+ cbd00240a3d1b56438bcb96b9828191bdb402450cdf684367435807cffa1b1c9       1712 Packages
+ 756731e30684469e2ccc05af5c9cbe13953bd75772c27fafaf13c958dceeff7d        814 Packages.bz2
+ 77cdd1d42d7631cfe3fd7b334df47c295c670fad3b4637f50132a96db3e2a920        736 Packages.xz

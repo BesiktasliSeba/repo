@@ -1,0 +1,13 @@
+{
+  "class": "FeaturedBannersView",
+  "itemSize": "{263, 148}",
+  "itemCornerRadius": 10,
+  "banners": [
+    {
+      "url": "https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/screenshots/1-both-ipads.jpg",
+      "title": "MacStatusBar&Dock",
+      "package": "com.besiktasliseba.macstatusbaranddock",
+      "hideShadow": false
+    }
+  ]
+}
