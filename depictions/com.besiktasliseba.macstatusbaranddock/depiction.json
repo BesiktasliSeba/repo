@@ -133,6 +133,16 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "1.0.5",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- New: your notifications in the Today panel (tap the clock). They appear in their own box above the widgets, newest first, with the newest 5 shown and \"Show N more\" for the rest. Tap one to open it, swipe left to clear it, or use Clear for all. The box hides itself when there are none, and works with Lock Screen tweaks that group notifications. Switch: Settings > Status Bar > Notifications in Today View.\n- Fixed: SpringBoard could freeze while scrolling far down the Today panel.\n- iPadOS 17 and 18 (experimental): Report a Problem now includes a short diagnostics section (which parts of the tweak don't match this iOS, and the Dock's layout), names and numbers only, so issues that don't crash can be fixed too.\n- Report a Problem's explanation in Settings now says what it's for and what the report contains.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "1.0.4",
           "useBoldText": true
         },
