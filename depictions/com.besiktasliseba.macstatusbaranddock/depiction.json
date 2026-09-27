@@ -133,6 +133,16 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "1.0.7",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### New\n- Tinted resize handles: a window's resize handles take a soft version of its app's button color or icon color (Notes yellow, Settings blue, WhatsApp and Spotify green, themed icons included). Switch: Settings > Status Bar > Windows > Tint Resize Handles.\n- Esc ends typing in windows: Esc puts away the text cursor in a windowed app, like clicking the desktop on a Mac. Terminal apps keep their Esc, and apps that use Esc themselves are left alone. Switch: Settings > Status Bar > Keyboard.\n- No Fit: the \"Where should it go?\" question for a third window has a No Fit button in the middle (tapping outside the sides does the same). The app opens untiled in the middle, and Fit to Window leaves it alone until it's closed.\n\n### Improvements\n- The third window's side question now comes before the app launches, so the app opens straight into its place instead of being squeezed in afterwards.\n- Only the window you're using keeps a blinking text cursor, also with a hardware keyboard: clicking another window, the desktop or the Dock ends typing in the others.\n\n### Fixes\n- Messages: tapping Send did nothing in a small window (the Return key still worked).\n- iPadOS 16: the first tap on a Dock icon after a while could be lost, or pull down Notification Center.\n- Fill Screen chosen for an app in full screen was undone by Fit to Window.\n- Reddit's Home feed could open skewed in a window.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "1.0.6",
           "useBoldText": true
         },
