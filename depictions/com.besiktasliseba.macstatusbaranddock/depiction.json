@@ -50,7 +50,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**Which window engine?** **iPadOS 16 with Stage Manager** (iPads that have it, or older iPads with TrollPad): **Stage Manager is the recommended window engine** — Apple's own windowing with our Mac look, and the only engine whose windows move to an external display. New installs on those iPads start with it. **Other iPads and iPadOS 15:** measured on both test iPads, **Aerial 5.0 is the recommended window engine on newer and older iPads alike** — every window test passed, memory use was the same as the others, and on the older iPad Pro 9.7\" it opened windows about twice as fast as Zetsu from a cold start. Zetsu works well too and is a good alternative. MilkyWay4 runs on iPadOS 15 only.",
+          "markdown": "**Which window engine?** Measured on both test iPads: **Aerial 5.0 is the recommended window engine on newer and older iPads alike** — every window test passed, memory use was the same as the others, and on the older iPad Pro 9.7\" it opened windows about twice as fast as Zetsu from a cold start. Zetsu works well too and is a good alternative. MilkyWay4 runs on iPadOS 15 only. **Stage Manager (iPadOS 16)** is an option on iPads that have it (or older iPads with TrollPad), tested on iPadOS 16.7.7; on earlier iPadOS 16 versions it may not work yet.",
           "useSpacing": true
         },
         {
@@ -112,7 +112,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.1.2"
+          "text": "1.1.3"
         },
         {
           "class": "DepictionTableTextView",
@@ -131,6 +131,16 @@
       "tabname": "Changelog",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.1.3",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### Changes\n- Aerial 5.0 is the recommended window engine on every iPad again. New installs no longer start with the Stage Manager engine; it stays available in Settings > Status Bar > Window Engine. It's tested on iPadOS 16.7.7 and may not work yet on earlier iPadOS 16 versions.\n\n### Improvements\n- Stage Manager engine: Fit to Window asks where a third window goes (left, right or No Fit), like the other engines, and keeps the arrangement you choose, also when the iPad is turned.",
+          "useSpacing": true
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "1.1.2",
