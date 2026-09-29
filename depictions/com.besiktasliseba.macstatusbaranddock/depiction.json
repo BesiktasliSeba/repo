@@ -112,7 +112,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.1.0"
+          "text": "1.1.1"
         },
         {
           "class": "DepictionTableTextView",
@@ -131,6 +131,16 @@
       "tabname": "Changelog",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.1.1",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### Fixes\n- Stage Manager engine: full-screen apps (Safari and others) were drawn shorter than the screen, with their top cut off.\n- Stage Manager engine: typing in a window could make the keyboard close again and again.\n- Stage Manager engine: with Open Apps as Windows on, an app opened from the Home Screen onto an empty desktop opens as a window again, instead of coming back full screen.\n- Stage Manager engine with an external display: the Window menu's swap rows and layouts work on the active window's own screen, and new windows on the display are placed within the display's desktop.\n- Mac pointer: Use Pointer Control Style follows Pointer Control's Color when it's set to None.",
+          "useSpacing": true
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "1.1.0",
