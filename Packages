@@ -327,3 +327,25 @@ Size: 854404
 MD5sum: fb1d3bb24809294578219f05094d7caf
 SHA1: 26d76e6ecc81a51cbd140c4711d931e77eca2baa
 SHA256: 0d7236a721178d6cd16bef5ceab33d433dfb9c583a7d6f6d1735af9ab29e8bba
+
+Package: com.besiktasliseba.macstatusbaranddock
+Name: MacStatusBar&Dock
+Description: A macOS-style status bar, menus, windows and Dock for iPadOS. iPad only.
+Maintainer: besiktasliseba
+Author: besiktasliseba
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate | org.coolstar.libhooker | ellekit, com.opa334.altlist, com.opa334.choicy | com.exile90.icleanerpro | xyz.cypwn.icleanerpro
+Conflicts: com.kaan.macstatusbar, com.kaan.macsettings, com.kaan.dockmagnification, com.kaan.macappbridge, com.kaan.mixaudio, com.kaan.forcequitmenu, com.kaan.graveescapetweak, com.kaan.tabmutetweak, com.kaan.volumeglobetweak, brightnesskeytweak, com.kaan.macstatusbartoggle, com.kaan.dockmagnificationtoggle, com.mikiyan1978.macdock
+Replaces: com.kaan.macstatusbar, com.kaan.macsettings, com.kaan.dockmagnification, com.kaan.macappbridge, com.kaan.mixaudio, com.kaan.forcequitmenu, com.kaan.graveescapetweak, com.kaan.tabmutetweak, com.kaan.volumeglobetweak, brightnesskeytweak, com.kaan.macstatusbartoggle, com.kaan.dockmagnificationtoggle
+Provides: com.kaan.macstatusbar, com.kaan.dockmagnification
+Architecture: iphoneos-arm64
+Version: 1.1.4
+Installed-Size: 7896
+Depiction: https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/
+SileoDepiction: https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/depiction.json
+Icon: https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/icon.png
+Filename: ./debs/com.besiktasliseba.macstatusbaranddock_1.1.4_iphoneos-arm64.deb
+Size: 865400
+MD5sum: a5f020c482922842766cdbed9bfa0e3b
+SHA1: 298662c386e39dc338afb9221b218cef7f110da7
+SHA256: 407786796c6ca2a112a18e0d1ddb8f7562841c342407b41178ebc59cd899eb4f
