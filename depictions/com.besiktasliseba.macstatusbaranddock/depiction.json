@@ -112,7 +112,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.2"
+          "text": "1.2.1"
         },
         {
           "class": "DepictionTableTextView",
@@ -131,6 +131,15 @@
       "tabname": "Changelog",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.2.1",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### Fixes\n- Finder: scrolling with a mouse wheel over a Finder window now scrolls its list (on iPadOS 16 it did nothing).\n- Finder: after a message box over Finder closes, typing goes back to Search if you were typing there.\n- Finder: dragging a large selection is smoother.\n- Stage Manager engine: when SofaScore in full screen has to reopen in its iPad layout, it now comes back full screen instead of as a window."
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "1.2",
