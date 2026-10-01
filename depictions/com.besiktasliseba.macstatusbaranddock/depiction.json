@@ -14,10 +14,6 @@
           "itemSize": "{240, 170}",
           "screenshots": [
             {
-              "url": "https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/screenshots/1-both-ipads.jpg",
-              "accessibilityText": "Both test iPads running MacStatusBar&Dock"
-            },
-            {
               "url": "https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/screenshots/2-audio-mixing.jpg",
               "accessibilityText": "Spotify and YouTube playing together with per-app volume"
             },
