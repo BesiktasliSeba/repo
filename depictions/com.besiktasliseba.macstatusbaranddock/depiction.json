@@ -112,7 +112,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.2.1"
+          "text": "1.2.2"
         },
         {
           "class": "DepictionTableTextView",
@@ -131,6 +131,15 @@
       "tabname": "Changelog",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.2.2",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### Improvements\n- Report a Problem on untested iPadOS versions (iPadOS 17 and later with Enable Anyway on): the report now includes a short record of how far the menu bar got while setting itself up, and the whole list of system methods the tweak couldn't find, so problems like a menu bar that doesn't appear can be tracked down."
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "1.2.1",
