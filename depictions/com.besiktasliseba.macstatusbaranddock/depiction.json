@@ -112,7 +112,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.2.3"
+          "text": "1.2.4"
         },
         {
           "class": "DepictionTableTextView",
@@ -131,6 +131,15 @@
       "tabname": "Changelog",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.2.4",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### Experimental (iPadOS 17)\n- iPadOS 17 (with Enable Anyway): the Mac menu bar now uses iPadOS 17's new status bar, which SpringBoard draws differently from iPadOS 15 and 16. Until now only Apple's own status bar showed there. Not tested on an iPadOS 17 device yet: if the menu bar still doesn't appear, Report a Problem now includes exactly what it found, which helps a lot."
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "1.2.3",
