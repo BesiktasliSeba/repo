@@ -112,7 +112,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.2.5"
+          "text": "1.2.6"
         },
         {
           "class": "DepictionTableTextView",
@@ -131,6 +131,15 @@
       "tabname": "Changelog",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.2.6",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### Fixes\n- Menu bar (iPadOS 16.0): the first menu opened after a respring in landscape no longer opens laid out as if the iPad were in portrait.\n\n### Compatibility\n- iPadOS 17.0 is reported working since 1.2.4 (iPad Pro 12.9\", Zetsu 1.6.6, with Enable Anyway). Thanks to the testers who sent reports."
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "1.2.5",
