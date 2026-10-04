@@ -6,16 +6,16 @@ Codename: ios
 Architectures: iphoneos-arm64
 Components: main
 Description: A macOS-style menu bar, Dock and windows for jailbroken iPads (rootless, iPadOS 15-16).
-Date: Sun, 04 Oct 2026 00:53:00 GMT
+Date: Sun, 04 Oct 2026 07:50:14 GMT
 MD5Sum:
- d1f5acdb2c5c0ee85161926aed4958e6      53656 Packages
- 1434827c36955c139c4ad552592c0894       4085 Packages.bz2
- 0c87890920db5685fbb531bd8bf16535       3568 Packages.xz
+ 02223a01f62b9bf789b5e6c116c7efbc      55395 Packages
+ f9a5e607db8fd1ed7fe001cd1efc9510       4145 Packages.bz2
+ 90f7d495f91bdd24755a689740a2658a       3660 Packages.xz
 SHA1:
- 7f787d696cec8e8009d2088f0ce111605f9c42aa      53656 Packages
- d651d0363d8d04b6bb43358c797b8c6d39640af4       4085 Packages.bz2
- dea10b15ff864c47aca76f438b847ffba5e6f6ad       3568 Packages.xz
+ 43a524b9d320b0097f792e7322a4d5808848859c      55395 Packages
+ 366c3566073cca87185b076ca7ca8bc62778d539       4145 Packages.bz2
+ 2f4c08536bb1499448e42f4d46fabf7d795f9fd7       3660 Packages.xz
 SHA256:
- a205b9ec8fe5a3a0e2c95ff57021d52f8decb1dd9324c454651de10ba59c14b1      53656 Packages
- 756e07395f84c99718e577285cc48f4767cdfcb589eb12af8f61717e9b8f4b10       4085 Packages.bz2
- b694a9157ae718c2ed12d3f4cc2eab4e6da92041bb8d82d8dce9fcc4f0223659       3568 Packages.xz
+ dd8368a1faf30e84921100da877178de10285e80b0d94e734acaf29c6a49d404      55395 Packages
+ 56f12b67b38239ee93d523158447faf49cc252f63405f43445f0aad77d27b153       4145 Packages.bz2
+ b18c0890b271ceeb6df7602b9247c84775aa8bae9e5f803065b2f6e5955a60ab       3660 Packages.xz
