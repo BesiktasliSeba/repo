@@ -647,6 +647,28 @@ Conflicts: com.kaan.macstatusbar, com.kaan.macsettings, com.kaan.dockmagnificati
 Replaces: com.kaan.macstatusbar, com.kaan.macsettings, com.kaan.dockmagnification, com.kaan.macappbridge, com.kaan.mixaudio, com.kaan.forcequitmenu, com.kaan.graveescapetweak, com.kaan.tabmutetweak, com.kaan.volumeglobetweak, brightnesskeytweak, com.kaan.macstatusbartoggle, com.kaan.dockmagnificationtoggle
 Provides: com.kaan.macstatusbar, com.kaan.dockmagnification
 Architecture: iphoneos-arm64
+Version: 1.3.2
+Installed-Size: 9064
+Depiction: https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/
+SileoDepiction: https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/depiction.json
+Icon: https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/icon.png
+Filename: ./debs/com.besiktasliseba.macstatusbaranddock_1.3.2_iphoneos-arm64.deb
+Size: 1165402
+MD5sum: 8c3f8cda7fd4065f4ce12790aaa5ba9a
+SHA1: c1644ddde0d449cae1f0919b33b2436bf3633133
+SHA256: 79efe14660df758f29467cb0c7a8b8b8437506a8f8b33f4e2dae25e571a8e98c
+
+Package: com.besiktasliseba.macstatusbaranddock
+Name: MacStatusBar&Dock
+Description: A macOS-style status bar, menus, windows and Dock for iPadOS. iPad only.
+Maintainer: besiktasliseba
+Author: besiktasliseba
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate | org.coolstar.libhooker | ellekit, com.opa334.altlist, com.opa334.choicy | com.exile90.icleanerpro | xyz.cypwn.icleanerpro
+Conflicts: com.kaan.macstatusbar, com.kaan.macsettings, com.kaan.dockmagnification, com.kaan.macappbridge, com.kaan.mixaudio, com.kaan.forcequitmenu, com.kaan.graveescapetweak, com.kaan.tabmutetweak, com.kaan.volumeglobetweak, brightnesskeytweak, com.kaan.macstatusbartoggle, com.kaan.dockmagnificationtoggle, com.mikiyan1978.macdock
+Replaces: com.kaan.macstatusbar, com.kaan.macsettings, com.kaan.dockmagnification, com.kaan.macappbridge, com.kaan.mixaudio, com.kaan.forcequitmenu, com.kaan.graveescapetweak, com.kaan.tabmutetweak, com.kaan.volumeglobetweak, brightnesskeytweak, com.kaan.macstatusbartoggle, com.kaan.dockmagnificationtoggle
+Provides: com.kaan.macstatusbar, com.kaan.dockmagnification
+Architecture: iphoneos-arm64
 Version: 1.3
 Installed-Size: 9032
 Depiction: https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/
