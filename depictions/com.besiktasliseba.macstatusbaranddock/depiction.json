@@ -112,7 +112,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.4.3"
+          "text": "1.4.4"
         },
         {
           "class": "DepictionTableTextView",
@@ -137,6 +137,15 @@
       "tabname": "Changelog",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.4.4",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### Fixes\n- Stage Manager engine: the Dock now hides over apps that only run full screen, such as many games, as it does over other full-screen apps, and the usual swipe up from the bottom edge still shows it. Before, it stayed in front of them."
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "1.4.3",
