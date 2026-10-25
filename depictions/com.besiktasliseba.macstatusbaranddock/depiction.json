@@ -2,7 +2,7 @@
   "minVersion": "0.1",
   "class": "DepictionTabView",
   "tintColor": "#0A84FF",
-  "headerImage": "https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/screenshots/0-settings-window.jpg",
+  "headerImage": "https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/screenshots/banner.jpg",
   "tabs": [
     {
       "tabname": "Details",
@@ -11,23 +11,43 @@
         {
           "class": "DepictionScreenshotsView",
           "itemCornerRadius": 8,
-          "itemSize": "{240, 170}",
+          "itemSize": "{240, 180}",
           "screenshots": [
             {
-              "url": "https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/screenshots/0-settings-window.jpg",
-              "accessibilityText": "Settings as a Mac window with the menu bar and Dock"
+              "url": "https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/screenshots/01-apple-menu.jpg",
+              "accessibilityText": "The menu bar with the Apple menu open over Calendar, Clock and Tips windows"
             },
             {
-              "url": "https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/screenshots/2-audio-mixing.jpg",
-              "accessibilityText": "Spotify and YouTube playing together with per-app volume"
+              "url": "https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/screenshots/02-windows.jpg",
+              "accessibilityText": "Mac windows with traffic lights: Tips, Calendar and Clock"
             },
             {
-              "url": "https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/screenshots/3-downloads.jpg",
-              "accessibilityText": "The Dock Downloads stack"
+              "url": "https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/screenshots/03-mac-switcher.jpg",
+              "accessibilityText": "The Mac Switcher with three desktops and the windows of the current one"
             },
             {
-              "url": "https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/screenshots/4-force-quit.jpg",
-              "accessibilityText": "Windows and Force Quit on the iPad Pro 9.7"
+              "url": "https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/screenshots/04-dock-downloads.jpg",
+              "accessibilityText": "The Dock with the Downloads stack open"
+            },
+            {
+              "url": "https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/screenshots/05-finder.jpg",
+              "accessibilityText": "A Finder window showing the Desktop folder"
+            },
+            {
+              "url": "https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/screenshots/06-today.jpg",
+              "accessibilityText": "The Today panel with notifications and widgets"
+            },
+            {
+              "url": "https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/screenshots/07-fit-to-window.jpg",
+              "accessibilityText": "Fit to Window: Clock, Calendar and Tips tiled side by side"
+            },
+            {
+              "url": "https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/screenshots/08-settings.jpg",
+              "accessibilityText": "Settings as a Mac window, on the Status Bar page"
+            },
+            {
+              "url": "https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/screenshots/09-window-menu.jpg",
+              "accessibilityText": "The Window menu with its window layouts"
             }
           ]
         },
@@ -55,7 +75,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**Report a Problem (what it sends):** the Report a Problem button (Settings > Status Bar, and the Automatic Crash Recovery note) opens a new GitHub issue in your browser, filled in with your iPad model, iPadOS version, window engine and its version, and the tweak's version. If the crash protection switched something off in the last 7 days, it adds what it turned off and when, and a few lines naming the tweak's own code that crashed (nothing from other apps or tweaks); on an untested iPadOS version, which of the tweak's switches are on. Nothing is sent by itself: you see the whole text first, can change or delete any of it, and it's only posted if you submit the issue (a GitHub account is needed). Nothing personal is included, and the tweak collects nothing in the background.",
+          "markdown": "**Report a Problem (what it sends):** the Report a Problem button (Settings > Status Bar, and the Automatic Crash Recovery note) opens a new GitHub issue in your browser, filled in with your iPad model, iPadOS version, window engine and its version, and the tweak's version. If the crash protection switched something off in the last 7 days, it adds what it turned off and when, and a few lines naming the tweak's own code that crashed (nothing from other apps or tweaks); on an untested iPadOS version, which of the tweak's switches are on. The report is part of the link to GitHub, so GitHub receives its text when the page opens. You see the whole text there, can change or delete any of it, and it's only posted as an issue if you submit it (a GitHub account is needed). Nothing personal is included, and the tweak collects nothing in the background.",
           "useSpacing": true
         },
         {
@@ -122,7 +142,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.5.0"
+          "text": "1.5.1"
         },
         {
           "class": "DepictionTableTextView",
@@ -147,6 +167,15 @@
       "tabname": "Changelog",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.5.1",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### Improvements\n- Stage Manager: MacStatusBar&Dock now asks before it turns Stage Manager on (\"MacStatusBar&Dock would like to turn on Stage Manager to show apps as Mac windows.\"). If you choose Not Now, decline Apple's introduction or turn Stage Manager off yourself, it stays off, and Settings > Status Bar shows Turn On Stage Manager. If Stage Manager is already on, you are not asked.\n- With Aerial, Zetsu or MilkyWay4, Stage Manager still stays off while the engine runs, and comes back on as you had it when you turn off windowing. Picking the engine now says so, and an engine you never picked asks first.\n- The Mac pointer turns off Pointer Animations (Accessibility > Pointer Control) while it is on, so the pointer no longer snaps or morphs under the arrow and moves smoothly at the menu bar. Your own setting comes back when you choose the iPadOS pointer, turn MacStatusBar off or remove it, and if you turn Pointer Animations back on, they stay on. If you already use the Mac pointer, they are turned off once with this update.\n- Update Available in the Apple menu also sees an update listed on Havoc.\n\n### Fixes\n- Fixed a crash a future Zetsu version could cause when it opens its alerts.\n- Cancelling a swipe back from the App Library no longer leaves your windows on top of it.\n- A force quit that Guided Access stops no longer counts as quitting the app.\n- With another tweak drawing the pointer, buttons and icons keep iPadOS's pointer effects.\n- The protection that keeps a quit app closed is sturdier: quick restarts of the system's scheduler no longer turn it off, and it is safe when two launches are asked for at once.\n- iPadOS 18 (experimental): the Settings rows in General are set up more safely.\n\n### Report a Problem\n- The texts now say it plainly: the report is part of the GitHub link, so GitHub receives it when the page opens; it is only posted if you submit it."
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "1.5.0",

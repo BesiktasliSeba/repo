@@ -4,8 +4,7 @@
   "itemCornerRadius": 10,
   "banners": [
     {
-      "url": "https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/screenshots/0-settings-window.jpg",
-      "title": "MacStatusBar&Dock",
+      "url": "https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/screenshots/banner.jpg",
       "package": "com.besiktasliseba.macstatusbaranddock",
       "hideShadow": false
     }
