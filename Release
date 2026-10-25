@@ -5,7 +5,7 @@ Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm64
 Components: main
-Description: A macOS-style menu bar, Dock and windows for jailbroken iPads (rootless, iPadOS 15-17, 18 experimental).
+Description: A macOS-style menu bar, Dock and windows for jailbroken iPads (rootless, iPadOS 15-17).
 Date: Sun, 25 Oct 2026 09:52:31 GMT
 MD5Sum:
  5fc393bbd194183832fee03934549a68      78002 Packages
