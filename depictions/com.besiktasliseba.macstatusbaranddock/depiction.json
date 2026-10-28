@@ -157,6 +157,12 @@
         },
         {
           "class": "DepictionTableButtonView",
+          "title": "Also on Havoc",
+          "action": "https://havoc.app/package/macstatusbardoc",
+          "openExternal": true
+        },
+        {
+          "class": "DepictionTableButtonView",
           "title": "Source code and issues",
           "action": "https://github.com/BesiktasliSeba/MacStatusBarAndDock",
           "openExternal": true
