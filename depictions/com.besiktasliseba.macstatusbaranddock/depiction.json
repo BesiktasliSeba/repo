@@ -142,7 +142,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.7.4"
+          "text": "1.7.4.1"
         },
         {
           "class": "DepictionTableTextView",
@@ -173,6 +173,15 @@
       "tabname": "Changelog",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.7.4.1",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### Fixes\n- With SnowBoard, or another theme engine that reloads the icons, opening the App Library after applying a theme no longer crashes SpringBoard, and Activity Monitor is back in the App Library's Utilities tile. Both broke in 1.7.3; search still found Activity Monitor."
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "1.7.4",
