@@ -142,7 +142,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.8.0"
+          "text": "1.8.0.1"
         },
         {
           "class": "DepictionTableTextView",
@@ -173,6 +173,15 @@
       "tabname": "Changelog",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.8.0.1",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### Fixes\n- With Control Center Style set to Mac, SpringBoard could crash and drop into Safe Mode at a slow start, most likely right after an install. It no longer does."
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "1.8.0",
