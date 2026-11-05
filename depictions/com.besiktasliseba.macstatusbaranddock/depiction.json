@@ -142,7 +142,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.8.1"
+          "text": "1.8.1.1"
         },
         {
           "class": "DepictionTableTextView",
@@ -173,6 +173,15 @@
       "tabname": "Changelog",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.8.1.1",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### Fixes\n- Changing the window engine from Stage Manager and back no longer empties the current desktop or leaves its window off the screen.\n- On iPadOS 18, letting go of a Notification Center pull over a full-screen app no longer leaves you without the menu bar.\n- On iPadOS 17, the same pull no longer collapses the right side of the menu bar.\n- On iPadOS 18, with seconds showing in the clock, the same pull no longer cuts off the time at the screen's edge.\n- On iPadOS 18, the menu bar no longer shows two Wi-Fi icons after the green button takes a window full screen."
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "1.8.1",
