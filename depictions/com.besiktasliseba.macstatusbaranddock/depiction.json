@@ -142,7 +142,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.8.2.1"
+          "text": "1.8.2.2"
         },
         {
           "class": "DepictionTableTextView",
@@ -173,6 +173,15 @@
       "tabname": "Changelog",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.8.2.2",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### Fixes\n- With the Dock on the left or right, long-press menus on Dock icons read from top to bottom and point at their icon, and wide previews such as widgets stay on screen.\n- With the Dock on the right, the Mac Control Center no longer covers it.\n- With the Dock on the left or right, windows follow it when its size changes, for example when recent apps come and go.\n- With Stage Manager and the Dock on the left or right, minimizing the last window on a desktop now goes into its Dock icon.\n- With Zetsu and the Dock on the left or right, a minimized window comes back where it was.\n- With the Dock on the left or right, Fit to Window's question sits centred over its choices.\n- Typing in the Downloads stack's search with a hardware keyboard on iPadOS 18 no longer moves the panel off the screen."
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "1.8.2.1",
