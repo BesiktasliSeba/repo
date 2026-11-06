@@ -142,7 +142,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.8.2"
+          "text": "1.8.2.1"
         },
         {
           "class": "DepictionTableTextView",
@@ -173,6 +173,15 @@
       "tabname": "Changelog",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.8.2.1",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### Fixes\n- With Control Center Style set to Mac, changing a module's size from the module itself, such as Uptime's Module Size, no longer crashes SpringBoard.\n- After a respring, a window filling another desktop still fills it when you move the Dock with Position on Screen.\n- With Stage Manager, a window in half of the screen keeps its half when you move the Dock straight from one side to the other with Position on Screen."
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "1.8.2",
