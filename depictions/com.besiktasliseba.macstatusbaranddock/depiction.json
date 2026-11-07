@@ -53,7 +53,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "A macOS-style desktop for your iPad: a menu bar with real app menus, Mac windows, a magnifying Dock and much more. It works with just your fingers or with a keyboard and trackpad or mouse, in every orientation. Optional extras, like the auto-hiding menu bar, start switched **off**, and most features have their own switch in Settings.",
+          "markdown": "A MacBook-style desktop for your jailbroken iPad. A menu bar with real app menus, Mac windows, a magnifying Dock and much more. It works with just your fingers or with a keyboard and trackpad or mouse, in every orientation. Optional extras, like the auto-hiding menu bar, start switched **off**, and most features have their own switch in Settings.",
           "useSpacing": true
         },
         {
@@ -142,7 +142,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.8.3"
+          "text": "1.8.3.1"
         },
         {
           "class": "DepictionTableTextView",
@@ -173,6 +173,15 @@
       "tabname": "Changelog",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.8.3.1",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### Fixes\n- Double-Tap a Title Bar to now shows in Settings > Windows & Multitasking with Stage Manager as the window engine, and with no window engine, where it sets Finder and TextEdit windows.\n- New Windows Open at Fill no longer shows in Settings > Windows & Multitasking while no window engine runs, since it does nothing then.\n- With an accessibility feature such as Full Keyboard Access on, the green button of Finder and TextEdit windows no longer sits below the other two.\n- Globe-Control-R (Return to Previous Size) now brings a window back fully on screen after you turn the iPad.\n- With the Dock on the left or right, Finder, Downloads and the Trash now stand upright in Edit Home Screen, and keep their size when the pointer is over the Dock.\n- The Dock's switch in Settings > Dock is now called Mac-Style Dock."
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "1.8.3",
