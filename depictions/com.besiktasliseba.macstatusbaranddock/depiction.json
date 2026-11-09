@@ -15,39 +15,43 @@
           "screenshots": [
             {
               "url": "https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/screenshots/01-apple-menu.jpg",
-              "accessibilityText": "The menu bar with the Apple menu open over Calendar, Clock and Tips windows"
+              "accessibilityText": "The Apple menu open over Calendar, Clock and Tips windows"
             },
             {
-              "url": "https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/screenshots/02-windows.jpg",
-              "accessibilityText": "Mac windows with traffic lights: Tips, Calendar and Clock"
+              "url": "https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/screenshots/02-live-activities.jpg",
+              "accessibilityText": "A timer and music in the menu bar, with the Now Playing card open"
             },
             {
-              "url": "https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/screenshots/03-mac-switcher.jpg",
-              "accessibilityText": "The Mac Switcher with three desktops and the windows of the current one"
+              "url": "https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/screenshots/03-live-activities-close-up.jpg",
+              "accessibilityText": "Close-up of the menu bar pills and the Now Playing card"
             },
             {
-              "url": "https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/screenshots/04-dock-downloads.jpg",
-              "accessibilityText": "The Dock with the Downloads stack open"
+              "url": "https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/screenshots/04-dock-styles.jpg",
+              "accessibilityText": "The three Dock styles: Glass Shelf, Frosted and Default"
             },
             {
-              "url": "https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/screenshots/05-finder.jpg",
+              "url": "https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/screenshots/05-side-dock.jpg",
+              "accessibilityText": "The Dock on the left side of the screen, magnifying under the pointer"
+            },
+            {
+              "url": "https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/screenshots/06-window-tiling.jpg",
+              "accessibilityText": "The Window menu with its tiling options over three tiled windows"
+            },
+            {
+              "url": "https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/screenshots/07-about-this-ipad.jpg",
+              "accessibilityText": "The About This iPad window"
+            },
+            {
+              "url": "https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/screenshots/08-mission-control.jpg",
+              "accessibilityText": "Mission Control with three windows and two desktops"
+            },
+            {
+              "url": "https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/screenshots/09-finder.jpg",
               "accessibilityText": "A Finder window showing the Desktop folder"
             },
             {
-              "url": "https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/screenshots/06-today.jpg",
-              "accessibilityText": "The Today panel with notifications and widgets"
-            },
-            {
-              "url": "https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/screenshots/07-fit-to-window.jpg",
-              "accessibilityText": "Fit to Window: Clock, Calendar and Tips tiled side by side"
-            },
-            {
-              "url": "https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/screenshots/08-settings.jpg",
-              "accessibilityText": "Settings as a Mac window, on the Status Bar page"
-            },
-            {
-              "url": "https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/screenshots/09-window-menu.jpg",
-              "accessibilityText": "The Window menu with its window layouts"
+              "url": "https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/screenshots/10-control-center.jpg",
+              "accessibilityText": "The Mac-style Control Center"
             }
           ]
         },
