@@ -61,6 +61,12 @@
           "useSpacing": true
         },
         {
+          "class": "DepictionButtonView",
+          "text": "Source Code on GitHub",
+          "action": "https://github.com/BesiktasliSeba/MacStatusBarAndDock",
+          "openExternal": true
+        },
+        {
           "class": "DepictionHeaderView",
           "title": "Features"
         },
