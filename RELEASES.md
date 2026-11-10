@@ -7,6 +7,12 @@ To check a download: `shasum -a 256 <file>.deb` (macOS) or `sha256sum <file>.deb
 The checksum shows the file is exactly the one published here. A rebuild of the same source gives the same code, but not a byte-identical
 package (the build adds signatures and timestamps), so compare the source, not the rebuilt file.
 
+## 1.8.5
+
+- Package: [`com.besiktasliseba.macstatusbaranddock_1.8.5_iphoneos-arm64.deb`](debs/com.besiktasliseba.macstatusbaranddock_1.8.5_iphoneos-arm64.deb) (2,586,754 bytes)
+- SHA-256: `9328b600a8d381deab7141b305df83cf3c083854bd02afe57a85901dccaa0044`
+- Source: [`ce83769`](https://github.com/BesiktasliSeba/MacStatusBarAndDock/commit/ce837699b30c493e869e6b13683e0e5d0071f9ad) (2026-11-10)
+
 ## 1.8.4.4
 
 - Package: [`com.besiktasliseba.macstatusbaranddock_1.8.4.4_iphoneos-arm64.deb`](debs/com.besiktasliseba.macstatusbaranddock_1.8.4.4_iphoneos-arm64.deb) (2,500,284 bytes)
@@ -24,7 +30,3 @@ package (the build adds signatures and timestamps), so compare the source, not t
 - Package: [`com.besiktasliseba.macstatusbaranddock_1.8.4.2_iphoneos-arm64.deb`](debs/com.besiktasliseba.macstatusbaranddock_1.8.4.2_iphoneos-arm64.deb) (2,490,026 bytes)
 - SHA-256: `9462289462cc77dc9ba1b803a5404983ab56ba44a57da043f0690e340368b590`
 - Source: [`2bc799d`](https://github.com/BesiktasliSeba/MacStatusBarAndDock/commit/2bc799de7178d1d14ed359aae7e499f3279c870b) (2026-11-10)
-
-## Older versions
-
-Versions before 1.8.4.2 are no longer offered in this repo. Their packages and checksums stay in this repository's git history.
