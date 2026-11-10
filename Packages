@@ -1674,6 +1674,26 @@ Description: A macOS-style status bar, menus, windows and Dock for iPadOS. iPad 
 Maintainer: besiktasliseba
 Author: besiktasliseba
 Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate | org.coolstar.libhooker | ellekit, com.opa334.altlist, com.opa334.choicy | com.exile90.icleanerpro
+Conflicts: com.mikiyan1978.macdock
+Architecture: iphoneos-arm64
+Version: 1.8.4.3
+Installed-Size: 15612
+Depiction: https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/
+SileoDepiction: https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/depiction.json
+Icon: https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/icon.png
+Filename: ./debs/com.besiktasliseba.macstatusbaranddock_1.8.4.3_iphoneos-arm64.deb
+Size: 2502390
+MD5sum: 8a684d3cb2eb0b5174278bb1e58a9e56
+SHA1: a411a0b12616fabed2e8930e068801b24e3ed32c
+SHA256: b0a92999841dff8a192304c7e47341bdc118c42530aba7c63de0dd0b6f5489dc
+
+Package: com.besiktasliseba.macstatusbaranddock
+Name: MacStatusBar&Dock
+Description: A macOS-style status bar, menus, windows and Dock for iPadOS. iPad only.
+Maintainer: besiktasliseba
+Author: besiktasliseba
+Section: Tweaks
 Depends: firmware (>= 15.0), mobilesubstrate | org.coolstar.libhooker | ellekit, com.opa334.altlist, com.opa334.choicy | com.exile90.icleanerpro | xyz.cypwn.icleanerpro
 Conflicts: com.kaan.macstatusbar, com.kaan.macsettings, com.kaan.dockmagnification, com.kaan.macappbridge, com.kaan.mixaudio, com.kaan.forcequitmenu, com.kaan.graveescapetweak, com.kaan.tabmutetweak, com.kaan.volumeglobetweak, brightnesskeytweak, com.kaan.macstatusbartoggle, com.kaan.dockmagnificationtoggle, com.mikiyan1978.macdock
 Replaces: com.kaan.macstatusbar, com.kaan.macsettings, com.kaan.dockmagnification, com.kaan.macappbridge, com.kaan.mixaudio, com.kaan.forcequitmenu, com.kaan.graveescapetweak, com.kaan.tabmutetweak, com.kaan.volumeglobetweak, brightnesskeytweak, com.kaan.macstatusbartoggle, com.kaan.dockmagnificationtoggle
