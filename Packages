@@ -77,3 +77,23 @@ Size: 2586754
 MD5sum: b720dfe81d4e30a6b1b694ae76f907e7
 SHA1: 3cc743d6a2ed59630b76593133eeacca7de38622
 SHA256: 9328b600a8d381deab7141b305df83cf3c083854bd02afe57a85901dccaa0044
+
+Package: com.besiktasliseba.macstatusbaranddock
+Name: MacStatusBar&Dock
+Description: A macOS-style status bar, menus, windows and Dock for iPadOS. iPad only.
+Maintainer: besiktasliseba
+Author: besiktasliseba
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate | org.coolstar.libhooker | ellekit, com.opa334.altlist, com.opa334.choicy | com.exile90.icleanerpro
+Conflicts: com.mikiyan1978.macdock
+Architecture: iphoneos-arm64
+Version: 1.8.6
+Installed-Size: 16400
+Depiction: https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/
+SileoDepiction: https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/depiction.json
+Icon: https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/icon.png
+Filename: ./debs/com.besiktasliseba.macstatusbaranddock_1.8.6_iphoneos-arm64.deb
+Size: 2642942
+MD5sum: 278f03106c58b5d9a9a99f7115164350
+SHA1: f3f541131c4f827e87de84b29ca385978cc3409c
+SHA256: 6aca70d7a72ebd6c5030b010bcc87b6ff8ae77f248cc511097510f43e878e478
