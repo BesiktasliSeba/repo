@@ -152,7 +152,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.8.7"
+          "text": "1.8.7.1"
         },
         {
           "class": "DepictionTableTextView",
@@ -183,6 +183,15 @@
       "tabname": "Changelog",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.8.7.1",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### Fixes\n- With Aerial 5.1, a messaging app that used to open full screen first now opens from the Dock straight into its window, quickly and with its Dock icon bouncing, and the Home Screen no longer moves while it opens."
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "1.8.7",
