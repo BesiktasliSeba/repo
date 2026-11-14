@@ -152,7 +152,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.8.7.1"
+          "text": "1.8.7.2"
         },
         {
           "class": "DepictionTableTextView",
@@ -183,6 +183,15 @@
       "tabname": "Changelog",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.8.7.2",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### Fixes\n- Moving an app icon in the Dock no longer freezes the iPad until SpringBoard restarts.\n- Swipe Up to Quit in the Mac Switcher now works in landscape: a window flicked up quits its app wherever you let go, unless it is on a desktop or +, and so does a two-finger swipe up on a trackpad.\n- With Menu Bar Size at Medium or Large, the lock icon on the Lock Screen now sits below the menu bar instead of under it."
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "1.8.7.1",
