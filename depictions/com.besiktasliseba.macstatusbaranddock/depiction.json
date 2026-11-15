@@ -152,7 +152,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.8.7.3"
+          "text": "1.8.7.4"
         },
         {
           "class": "DepictionTableTextView",
@@ -183,6 +183,15 @@
       "tabname": "Changelog",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.8.7.4",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### Improvements\n- Battery Percentage in Icon now works with one switch: there is no need to turn off Battery Percentage in Settings > Battery first.\n- Folders in Finder now look like macOS folders, the same as on the desktop.\n- After a respring onto the Lock Screen, the menu bar there is no longer redrawn on every frame for the first 12 seconds.\n- With no hardware keyboard attached, the iPad does less background work while windows are open.\n- Scrolling with a trackpad or mouse while a Finder window is open now takes the iPad less work.\n- The Dock does less work when you open or switch apps.\n\n### Fixes\n- The battery number inside the battery icon is now readable at every charge level.\n- Apps that iPadOS closed in the background to free memory keep their App Switcher card again, as on a stock iPad.\n- With Finder switched off, Activity Monitor and Display Settings no longer keep the keyboard from your apps, and their window shortcuts work.\n- With the Stage Manager engine and Open Apps as Windows off, a minimized window opened from the Dock at the Home Screen comes back as its window instead of full screen.\n- An app brought to the front no longer pops up its on-screen keyboard by itself after a hardware keyboard was disconnected.\n- Turning Charge Limit or Run on Power Adapter off, or changing the limit, now works right away after installing other packages, instead of only after a restart."
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "1.8.7.3",
