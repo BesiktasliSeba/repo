@@ -85,7 +85,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**Report a Problem (what it sends):** the Report a Problem button (Settings > Status Bar, and the Automatic Crash Recovery note) opens a new GitHub issue in your browser, filled in with your iPad model, iPadOS version, window engine and its version, and the tweak's version. If the crash protection switched something off in the last 7 days, it adds what it turned off and when, and a few lines naming the tweak's own code that crashed (nothing from other apps or tweaks); on an untested iPadOS version, which of the tweak's switches are on. The report is part of the link to GitHub, so GitHub receives its text when the page opens. You see the whole text there, can change or delete any of it, and it's only posted as an issue if you submit it (a GitHub account is needed). Nothing personal is included, and the tweak collects nothing in the background.",
+          "markdown": "**Report a Problem (what it sends):** the Report a Problem button (Settings > Status Bar, and the Automatic Crash Recovery note) opens a new GitHub issue in your browser, filled in with your iPad model, iPadOS version, window engine and its version, and the tweak's version. If the crash protection switched something off in the last 7 days, it adds what it turned off and when, a few lines naming the tweak's own code that crashed, what caused the crash, where it happened and the names of the other tweaks that were loaded. It also lists what caused SpringBoard's crashes in the last 24 hours. On an untested iPadOS version, it adds which of the tweak's switches are on. The report is part of the link to GitHub, so GitHub receives its text when the page opens. You see the whole text there, can change or delete any of it, and it's only posted as an issue if you submit it (a GitHub account is needed). Nothing personal is included, and the tweak collects nothing in the background.",
           "useSpacing": true
         },
         {
@@ -152,7 +152,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.8.7.6"
+          "text": "1.8.7.7"
         },
         {
           "class": "DepictionTableTextView",
@@ -183,6 +183,15 @@
       "tabname": "Changelog",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.8.7.7",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### Fixes\n- Automatic Crash Recovery no longer turns MacStatusBar&Dock off after SpringBoard crashes that show only iPadOS's own code while other tweaks run in SpringBoard (#14). If SpringBoard keeps crashing, it still steps in to stop the loop.\n- Report a Problem now says what caused SpringBoard's recent crashes, including those Automatic Crash Recovery didn't act on, as far as it can tell. Automatic Crash Recovery's notice shows the cause too.\n- When SpringBoard crashes in one of MacStatusBar&Dock's features, Automatic Crash Recovery now more often turns off only that feature instead of the whole tweak.\n- Fixed some apps' badges (like an update count) going missing from the Dock or the Home Screen after a respring."
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "1.8.7.6",
