@@ -11,7 +11,7 @@ package (the build adds signatures and timestamps), so compare the source, not t
 
 - Package: [`com.besiktasliseba.macstatusbaranddock_1.8.7.7_iphoneos-arm64.deb`](debs/com.besiktasliseba.macstatusbaranddock_1.8.7.7_iphoneos-arm64.deb) (2,808,180 bytes)
 - SHA-256: `11c2a3879d35e004caf742493a399a1076fe902f3f4266fd7961b4c2f7fa4954`
-- Source: [`a1e29b9`](https://github.com/BesiktasliSeba/MacStatusBarAndDock/commit/a1e29b9ea471d552ce77eff725dca35d6f2efbc2) (2026-11-18)
+- Source: [`f7bfc5b`](https://github.com/BesiktasliSeba/MacStatusBarAndDock/commit/f7bfc5ba3b6a2a378c0149071e47e8f4fc981877) (2026-11-18)
 
 ## 1.8.7.6
 
