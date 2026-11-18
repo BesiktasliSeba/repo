@@ -152,7 +152,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.8.7.7"
+          "text": "1.8.7.8"
         },
         {
           "class": "DepictionTableTextView",
@@ -183,6 +183,15 @@
       "tabname": "Changelog",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.8.7.8",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### Fixes\n- Fixed a rare SpringBoard crash with another tweak that turns on Do Not Disturb when an app opens (#14).\n- After a respring, iPadOS's own Wi-Fi icon no longer appears for a moment next to the menu bar's when you unlock, and with Airplane Mode on, the airplane icon no longer slides over the Wi-Fi icon (#14)."
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "1.8.7.7",

@@ -7,6 +7,12 @@ To check a download: `shasum -a 256 <file>.deb` (macOS) or `sha256sum <file>.deb
 The checksum shows the file is exactly the one published here. A rebuild of the same source gives the same code, but not a byte-identical
 package (the build adds signatures and timestamps), so compare the source, not the rebuilt file.
 
+## 1.8.7.8
+
+- Package: [`com.besiktasliseba.macstatusbaranddock_1.8.7.8_iphoneos-arm64.deb`](debs/com.besiktasliseba.macstatusbaranddock_1.8.7.8_iphoneos-arm64.deb) (2,815,770 bytes)
+- SHA-256: `81711f6380274003d55f4b40a6293f96cb7941a8bd8ef4d186dbc64288fae328`
+- Source: [`f63e8d1`](https://github.com/BesiktasliSeba/MacStatusBarAndDock/commit/f63e8d12a23ab987c87e7932747e45b094b2cc45) (2026-11-18)
+
 ## 1.8.7.7
 
 - Package: [`com.besiktasliseba.macstatusbaranddock_1.8.7.7_iphoneos-arm64.deb`](debs/com.besiktasliseba.macstatusbaranddock_1.8.7.7_iphoneos-arm64.deb) (2,808,180 bytes)
