@@ -11,13 +11,13 @@ package (the build adds signatures and timestamps), so compare the source, not t
 
 - Package: [`com.besiktasliseba.macstatusbaranddock_1.8.7.8_iphoneos-arm64.deb`](debs/com.besiktasliseba.macstatusbaranddock_1.8.7.8_iphoneos-arm64.deb) (2,815,770 bytes)
 - SHA-256: `81711f6380274003d55f4b40a6293f96cb7941a8bd8ef4d186dbc64288fae328`
-- Source: [`f63e8d1`](https://github.com/BesiktasliSeba/MacStatusBarAndDock/commit/f63e8d12a23ab987c87e7932747e45b094b2cc45) (2026-11-18)
+- Source: [`58e490d`](https://github.com/BesiktasliSeba/MacStatusBarAndDock/commit/58e490d2490cd9bf90b0f2f44df3e3c5c2201a15) (2026-11-18)
 
 ## 1.8.7.7
 
 - Package: [`com.besiktasliseba.macstatusbaranddock_1.8.7.7_iphoneos-arm64.deb`](debs/com.besiktasliseba.macstatusbaranddock_1.8.7.7_iphoneos-arm64.deb) (2,808,180 bytes)
 - SHA-256: `11c2a3879d35e004caf742493a399a1076fe902f3f4266fd7961b4c2f7fa4954`
-- Source: [`f7bfc5b`](https://github.com/BesiktasliSeba/MacStatusBarAndDock/commit/f7bfc5ba3b6a2a378c0149071e47e8f4fc981877) (2026-11-18)
+- Source: [`a717f71`](https://github.com/BesiktasliSeba/MacStatusBarAndDock/commit/a717f7128056e54d534cb317e19a611bdf3ac7ed) (2026-11-18)
 
 ## 1.8.7.6
 
