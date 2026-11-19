@@ -152,7 +152,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.8.7.8"
+          "text": "1.8.7.9"
         },
         {
           "class": "DepictionTableTextView",
@@ -183,6 +183,15 @@
       "tabname": "Changelog",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.8.7.9",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### Fixes\n- A tap or click on iPadOS's own icons in the menu bar, such as the AirPods icon, no longer opens Control Center while the menu bar shows its Control Center icon. That icon and the swipe down from the top right still open it.\n- With Aerial 5, the window behind no longer flashes at its edges when a Finder window opens or closes, when you minimize or close a window, or when you use the Mac Switcher.\n- After a respring, the icons on the right of the menu bar no longer shift sideways for an instant when you unlock."
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "1.8.7.8",
