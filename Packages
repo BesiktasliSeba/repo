@@ -347,6 +347,26 @@ Section: Tweaks
 Depends: firmware (>= 15.0), mobilesubstrate | org.coolstar.libhooker | ellekit, com.opa334.altlist, com.opa334.choicy | com.exile90.icleanerpro
 Conflicts: com.mikiyan1978.macdock
 Architecture: iphoneos-arm64
+Version: 1.8.8.2.1
+Installed-Size: 18216
+Depiction: https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/
+SileoDepiction: https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/depiction.json
+Icon: https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/icon.png
+Filename: ./debs/com.besiktasliseba.macstatusbaranddock_1.8.8.2.1_iphoneos-arm64.deb
+Size: 3030248
+MD5sum: a5c9a0e200cafe20015c7a8d158373bd
+SHA1: e360b8ca15c9e0c6b26349533b64a7e08d92de28
+SHA256: 73c6908ac72d144d77247ed297836a930e46883052bae5ef45dd439349c94fb3
+
+Package: com.besiktasliseba.macstatusbaranddock
+Name: MacStatusBar&Dock
+Description: A macOS-style status bar, menus, windows and Dock for iPadOS. iPad only.
+Maintainer: besiktasliseba
+Author: besiktasliseba
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate | org.coolstar.libhooker | ellekit, com.opa334.altlist, com.opa334.choicy | com.exile90.icleanerpro
+Conflicts: com.mikiyan1978.macdock
+Architecture: iphoneos-arm64
 Version: 1.8.8
 Installed-Size: 17312
 Depiction: https://besiktasliseba.github.io/repo/depictions/com.besiktasliseba.macstatusbaranddock/
